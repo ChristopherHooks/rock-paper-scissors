@@ -1,5 +1,3 @@
-
-
 //Create function getComputerChoice
 function getComputerChoice() {
 
@@ -15,20 +13,12 @@ function getComputerChoice() {
 
 }
 
-
-
-
 //Create function getHumanChoice
 //make humanChoice case-insensitive
 function getHumanChoice() {
     let humanGuess = prompt("Enter rock, paper, or scissors.").toLowerCase();
     return humanGuess;
 }
-
-
-
-// playRound();
-// console.log(`Player: ${humanScore} Computer: ${computerScore}`);
 
 
 //Create function playGame
@@ -63,7 +53,6 @@ function playGame() {
         //Create variables computerChoice and human choice
         let computerChoice = getComputerChoice();
         let humanChoice = getHumanChoice();
-
 
         playRound(humanChoice, computerChoice);
         console.log(`Human score: ${humanScore}, Computer score: ${computerScore}`);
