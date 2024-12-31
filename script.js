@@ -22,7 +22,6 @@ function playGame() {
         }
     }
 
-
     function playRound(humanChoice, computerChoice) {
         if (humanChoice === computerChoice) {
             console.log(`It's a tie! Both players chose ${humanChoice}`);
@@ -39,7 +38,6 @@ function playGame() {
         }
     }
 
-    // Logic for Rock, Paper, Scissors buttons
     const rock = document.querySelector('#rock');
     const paper = document.querySelector('#paper');
     const scissors = document.querySelector('#scissors');
@@ -72,38 +70,4 @@ function playGame() {
 }
 
 playGame();
-
-//     //Play game by calling playRound 5x
-//     // for (let i = 1; i <= 5; i++) {
-//     // console.log(`Round: ${i}`);
-//     //Create variables computerChoice and human choice
-//     let computerChoice = getComputerChoice();
-//     let humanChoice = getHumanChoice();
-
-//     // playRound(humanChoice, computerChoice);
-//     // console.log(`Human score: ${humanScore}, Computer score: ${computerScore}`);
-
-//     //Final score
-//     if (humanScore > computerScore) {
-//         console.log('You are the winner!');
-//     } else if (computerScore > humanScore) {
-//         console.log('Computer wins!');
-//     } else {
-//         console.log("It's a tie!");
-//     }
-
-//     // }
-
-
-
-
-
-
-
-
-
-
-
-
-//Compare userChoice to computerChoice
 
