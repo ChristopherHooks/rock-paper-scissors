@@ -1,5 +1,4 @@
 # rock-paper-scissors
-# Rock-Paper-Scissors Game
 
 This project is a simple **Rock-Paper-Scissors** game built with JavaScript, HTML, and CSS. It allows users to play against the computer by clicking buttons corresponding to their choice of "rock," "paper," or "scissors." The first player to reach a score of 5 wins the game.
 
